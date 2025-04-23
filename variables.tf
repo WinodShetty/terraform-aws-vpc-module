@@ -19,3 +19,11 @@ variable "common_tags"{
     type = map
     #default = {}
 }
+
+variable "vpc_tags" {
+    default = {}
+}
+
+variable "igw_tags" {
+    default = {}
+}
